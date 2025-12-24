@@ -1,0 +1,104 @@
+
+\documentclass{article} % For LaTeX2e
+\usepackage{iclr2025_conference,times}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+\input{math_commands.tex}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{comment}
+\usepackage{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage[svgnames]{xcolor}  % for \textcolor and names like deepskyblue
+\usepackage{wrapfig}
+
+
+\title{Project Title}
+
+
+\author{ 
+Name 1 \\
+\texttt{email 1} \And
+Name 2 \\
+\texttt{email 2} \And
+Name 3 \\
+\texttt{email 3} \And
+Mentor \\
+\texttt{email} \And
+}
+
+
+
+\newcommand{\comm}[1]{\textcolor{purple}{#1}}
+
+\iclrfinalcopy 
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+\comm{concise summary of your project proposal, including key objectives, methods, and anticipated contributions. When you start, remove all the red comments.
+}
+\end{abstract}
+
+\section{Introduction}
+\comm{Provide a clear overview of the work, including a concise explanation of the overall theme of your project. Here, DO YOUR BEST to motivate the reader and demonstrate the relevance and importance of your project.}
+
+
+\section{Background}
+\comm{Provide a concise background of essential materials to give a general overview. Ensure to include citations for the referenced materials.}
+
+\section{Contributions \& Goals}
+\comm{
+    Provide a more specific explanation of what you aim to investigate or solve within the broader context introduced earlier. Summarize the main contributions of your project. Note that a major part of your grade will be based on the \textbf{impact} and \textbf{novelty} of your work.}
+
+\comm{
+    We encourage you to focus on:
+    \begin{itemize}
+        \item Solving existing problems in the literature.
+        \item Addressing (e.g., identifying and analyzing) unexplored but important problems.
+        \item Proposing a methodology that is as generic and simple as possible.
+    \end{itemize}
+    }
+
+\comm{
+    We do not encourage the following:
+    \begin{itemize}
+        \item Exploring the effects of replacing a component of algorithm A, with the goal of improving it (an incremental work).
+        \item Combining algorithms A and B when both are already working well individually.
+        \item Testing if algorithm A works well on task T and then applying it to a different task T'.
+    \end{itemize}
+}
+
+
+\section{Proposed Idea/Method/Framework}
+\comm{
+At the end of the first phase, you should be familiar with the targeted direction, significance, and limitations of related work, and have proposed a new (not necessarily \textit{novel}) contribution. Your idea should be concise, practically feasible to implement, and justified either intuitively or theoretically.
+\\
+\\
+In this section, you need to detail your idea along with all the technical aspects of the method, as well as an expected plan for your simulations (e.g., which datasets and model backbone are you going to use?). 
+\\
+\\
+You are not obligated to follow this plan strictly until the second phase, but it should be consistent with the overall project and not stray too far from it.
+\\
+\\
+\textbf{Note 1:} We understand the time and computational limitations you may face. Therefore, we do not expect a top-tier paper. Just focus on doing your best!
+\\
+\\
+\textbf{Note 2:} There is no predefined structured grading scheme, and grading will be based on the performance of all groups.
+\\
+\\
+\textbf{Note 3:} We strongly encourage you to avoid LLM-generated ideas, as they are not yet sufficiently creative. Your thinking path and justification of your work will be significantly reflected in your assessment.
+\\
+\\
+\textbf{Note 4:} Make sure to stay in constant communication with your mentors and review your proposal with them before submission.
+}
+
+
+\bibliography{iclr2025_conference}
+\bibliographystyle{iclr2025_conference}
+
+\end{document}
